@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background:lab(90.74% -61.48 86.83 / 0.612);
+    text-align: center;
+    margin-top: 40px;
+}
+form{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
