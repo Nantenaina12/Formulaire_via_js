@@ -58,5 +58,7 @@ input {
 @media (max-width: 800px) {
   .formu {
     margin: 20px;
+    justify-content: center;
+    align-items: center;
   }
 }
