@@ -3,14 +3,62 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-    background:lab(90.74% -61.48 86.83 / 0.612);
+    background:lab(67.98% -11.51 -15.49 / 0.333);
     text-align: center;
     margin-top: 40px;
+}
+h2{
+
+    color: white;
+    font-size: 20px;
+}
+.formu{
+    display: grid;
+    border: 1px blue;
+    border-radius: 15px;
+    background: rgb(133, 185, 214);
+    margin: 70px;
+    padding: 20px;
+    box-shadow: 1px 2px 11px  10px rgba(112, 193, 237, 0.817);
 }
 form{
     display:grid;
     align-items: center;
     justify-content: center;
     gap: 10px;
+    padding: 20px;
+    
+}
+input{
+    border: 1px white;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px;
+    max-width: 100%;
+    width: 300px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 17px;
+
+
+}
+#btn{
+    cursor: pointer;
+}
+#btn:hover{
+    background: rgb(78, 78, 201);
+    color: white;
+}
+.formu:hover{
+    transform: scale(1.02);
+    transform: translateY(2px);
+
+}
+@media (max-width:800px) {
+    .formu{
+        justify-content: center;
+        align-items: center;
+    }
+
     
 }
