@@ -54,11 +54,14 @@ input {
 .formu:hover {
   transform: scale(1.02);
 }
-
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .formu {
-    margin: 20px;
-    justify-content: center;
-    align-items: center;
+    width: 90%;
+    padding: 10px;
+  }
+
+  input {
+    width: 100%;
   }
 }
+
